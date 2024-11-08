@@ -31,6 +31,6 @@ class AuthorSeeder extends Seeder
             ],
             ];
 
-            DB::table('author')->insert($authors);
+            DB::table('authors')->insert($authors);
     }
 }
